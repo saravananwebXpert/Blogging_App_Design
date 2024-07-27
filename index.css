@@ -1,0 +1,129 @@
+body {
+  margin: 0px;
+}
+
+header {
+  height: 500px;
+  border: 1px solid black;
+  background-color: rgb(41, 63, 80);
+  padding: 1px 250px;
+}
+#navbar {
+  height: 500px;
+}
+#nav-div1 {
+  height: 200px;
+  display: flex;
+  width: 1000px;
+  margin-left: 20px;
+}
+#nav-div2 {
+  height: 300px;
+  color: white;
+  text-align: center;
+}
+#logo {
+  width: 350px;
+  height: 200px;
+}
+#logo h1 {
+  color: white;
+  font-family: Lato, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  font-style: normal;
+}
+#links {
+  text-align: right;
+  width: 550px;
+  height: 200px;
+  color: white;
+}
+#links h1 {
+  margin-top: 70px;
+  font-size: 21px;
+  color: #648880;
+}
+#links div ul li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+#nav-div2 button {
+  height: 66px;
+  width: 187px;
+  background-color: rgb(41, 63, 80);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+main {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+#nav-div2 h2 {
+  font-size: 36px;
+  color: #648880;
+}
+#nav-div2 p {
+  font-size: 24px;
+}
+main #main-div {
+  display: flex;
+  gap: 20px;
+}
+
+main #main-div div {
+  height: 425px;
+  width: 309px;
+  padding: 0 15px 0 15px;
+}
+#main-div div h5,
+#main-div div h3 {
+  font-size: 16px;
+  color: #a9b2b9;
+  line-height: 22px;
+}
+
+#main-div div h3 {
+  font-size: 18px;
+  color: #a9b2b9;
+  line-height: 22px;
+}
+
+#main-div div img {
+  height: 197px;
+  width: 279px;
+  border-radius: 5px;
+}
+#main-div div p {
+  font-size: 18px;
+  color: #888888;
+  line-height: 22px;
+}
+
+footer {
+  height: 109px;
+  justify-content: center;
+  background-color: #293f50;
+  justify-items: center;
+  display: flex;
+}
+footer div {
+  width: 959px;
+  height: 109px;
+  background-color: #293f50;
+  line-height: 70px;
+}
+footer div span {
+  color: #648880;
+  margin-right: 370px;
+}
+
+footer div ul li {
+  list-style-type: none;
+  color: #ffffff;
+  display: inline;
+  margin-right: 20px;
+}
